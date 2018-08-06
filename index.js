@@ -8,6 +8,7 @@ app.use(express.static(__dirname));
 app.use(express.static (__dirname + '/bower_components'));
 app.use(express.static (__dirname + '/node_modules'));
 app.use(express.static (__dirname + '/images'));
+app.use(express.static (__dirname + '/images2'));
 app.use(express.static (__dirname + '/css'));
 console.log(__dirname + "/bower_components");
 
